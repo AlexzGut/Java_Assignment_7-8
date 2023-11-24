@@ -20,7 +20,7 @@ public class EmployeeDemo {
 		displayEmployees(employees);
 	}
 	
-	public static void displayEmployees(List<Employee> employees) {
+	private static void displayEmployees(List<Employee> employees) {
 		final String STRUCTURE = "%-10s %-15s %-15s %-15s";
 		final String HEADER = String.format(STRUCTURE, "ID NUMBER", "NAME", "DEPARTMENT", "POSITION");
 		final String LINE = "-".repeat(HEADER.length());
