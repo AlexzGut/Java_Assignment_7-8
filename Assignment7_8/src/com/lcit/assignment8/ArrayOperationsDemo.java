@@ -9,7 +9,7 @@ public class ArrayOperationsDemo {
 		
 		
 		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n" +
-						   "| This program demonstrate the methods  |\n" +
+						   "| This program demonstrates the methods |\n" +
 						   "| in the ArrayOperations class.         |\n" +
 						   "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
 		

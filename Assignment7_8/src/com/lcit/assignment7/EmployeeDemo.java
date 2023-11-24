@@ -17,6 +17,12 @@ public class EmployeeDemo {
 		employees.add(SecondEmpoyee);
 		employees.add(thirdEmpoyee);
 		
+		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n" +
+				   		   "| This program creates 3 employees and display  |\n" +
+				   		   "| them using a table format, demostrating the   |\n" +
+				   		   "| Employee class.                               |\n" +
+						   "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
+		
 		displayEmployees(employees);
 	}
 	
@@ -25,6 +31,7 @@ public class EmployeeDemo {
 		final String HEADER = String.format(STRUCTURE, "ID NUMBER", "NAME", "DEPARTMENT", "POSITION");
 		final String LINE = "-".repeat(HEADER.length());
 		
+		System.out.println(LINE);
 		System.out.println(HEADER);
 		System.out.println(LINE);
 		
