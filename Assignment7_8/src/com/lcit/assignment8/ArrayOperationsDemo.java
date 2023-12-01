@@ -7,7 +7,7 @@ public class ArrayOperationsDemo {
 		final int SIZE_DECLARATOR = 10;
 		int[] numbers = new int[SIZE_DECLARATOR];
 		
-		
+		// Test each one of the tests that were created in ArrayOperation class.
 		System.out.println("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n" +
 						   "| This program demonstrates the methods |\n" +
 						   "| in the ArrayOperations class.         |\n" +

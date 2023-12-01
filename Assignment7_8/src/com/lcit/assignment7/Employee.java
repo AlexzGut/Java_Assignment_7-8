@@ -1,12 +1,13 @@
 package com.lcit.assignment7;
 
 public class Employee {
-	
+	// Creates the fields for employee
 	private int idNumber;
 	private String name;
 	private String department;
 	private String position;
 	
+	// Creates the constructor for employee when all the 4 fields are passed.
 	public Employee(int idNumber, String name, String department, String position) {
 		this.idNumber = idNumber;
 		this.name = name;
@@ -14,11 +15,13 @@ public class Employee {
 		this.position = position;
 	}
 	
+	// Creates the constructor for employee when just idNumber and name are passed.
 	public Employee(int idNumber, String name) {
 		this.idNumber = idNumber;
 		this.name = name;
 	}
 	
+	// Creates a non-args constructor.
 	public Employee() {
 		idNumber = 0;
 		name = "";
@@ -26,6 +29,8 @@ public class Employee {
 		position = "";
 	}
 
+	
+	// Setters and getters for the fields
 	/**
 	 * @return the idNumber
 	 */
@@ -81,7 +86,8 @@ public class Employee {
 	public void setPosition(String position) {
 		this.position = position;
 	}
-
+	
+	// toString Method for printing the Employee.
 	@Override
 	public String toString() {
 		return "Employee [idNumber=" + idNumber + ", name=" + name + ", department=" + department + ", position="
